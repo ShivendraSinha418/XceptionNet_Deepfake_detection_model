@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepfake Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+</head>
+<body>
+    <h1>Deepfake Video Prediction</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input class="btn" type="file" name="video" accept="video/*" required>
+        <button class="btn" type="submit">Predict</button>
+    </form>
+
+    {% if video_path %}
+        <h3>Uploaded Video:</h3>
+        <video controls width="480">
+            <source src="{{ url_for('static', filename=video_path.split('static/')[1]) }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    {% endif %}
+
+    {% if prediction %}
+        <h2 class="res">Prediction: {{ prediction }}</h2>
+        <h3 class="res">Confidence: {{ confidence }}</h3>
+    {% endif %}
+</body>
+</html>

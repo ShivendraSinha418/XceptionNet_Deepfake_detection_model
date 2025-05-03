@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-top: 5%;
+}
+.btn{
+    width: 80%;
+    aspect-ratio: 3/1;
+    border: 2px solid black;
+    margin-top: 30%;
+    background-color: rgba(255, 255, 255, 0.267);
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    animation: zoom 1.2s;
+}
+@keyframes zoom {
+    from{
+        scale:1;
+    }
+    to{
+        scale : 1.03;
+    }
+}
+.btn:first-child{
+    padding-top: 4%;;
+}
+video{
+    width: 60vw;
+}
+.res{
+    font-size: 2rem;
+}

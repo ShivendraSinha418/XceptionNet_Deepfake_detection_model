@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic template website</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-item"></div>
+    <div class="nav-item">About Us</div>
+    <div class="nav-item">Papers</div>
+    <div class="nav-item" id="search">
+        <input type="text" class="inp" placeholder="search here">
+    </div>
+    <div class="nav-item">Resources</div>
+    <div class="nav-item">☰</div>
+</nav>
+<input type="text" placeholder="Search here" class="hiddensearch">
+<div class="cards">
+    <div class="typewriter">Deepfake Detection Model 🔍︎</div>
+</div>
+<section class="main-content">
+    <h2>Deepfakes</h2>
+    <p class="dfdsc">Deepfakes are synthetic media—usually videos, images, or audio—created using artificial intelligence, especially deep learning techniques, to make it appear as if someone said or did something they never actually did.
+    They often involve swapping faces, mimicking voices, or altering expressions in a hyper-realistic way, making it hard to distinguish real from fake.</p>
+    <div class="cont1"></div>
+</section>
+<section class="example">
+    <h2>Deepfake Videos</h2>
+    <br>
+    <div class="exv"></div>
+</section>
+<section class="model">
+    <h2>Our Model</h2>
+    <p>We developed a deepfake detection model using a CNN-based architecture. Input images are preprocessed with Local Binary Pattern (LBP) and resized to (299, 299, 3). The model includes convolutional layers, Global Average Pooling, Batch Normalization, and Dropout, and is trained using binary crossentropy to classify images as real or fake with a confidence score.</p>
+</section>
+<section class="results">
+    <h2>Results</h2>
+    <p>Our model has shown an accuracy of 91% and generalizes well on the Real world data.</p>
+    <div class="gph" id="acc"></div>
+    <div class="gph" id="loss"></div>
+    <div class="mat"></div>
+    <br>
+</section>
+<section class="pred">
+    <h2>Predict with our model</h2>
+    <p>Click the button below and you will be directed to the prediction page where you will be asked to select an image or a video for the prediction and then upload the 
+        same for the prediction. After processing the model predicts whether the image/video is original or a deepfake with confidence score.
+    </p>
+    <br>
+    <button class="Predict"><a href="{{ url_for('predict') }}">Predict</a></button>
+    <br>
+</section>
+<footer class="footer">
+    <h2>Team</h2>
+    <br>
+    <div class="pic_container">
+    <div class="pc"><h2>Vaibhav Tiwari</h2><div class="pic"></div></div>
+    <div class="pc"><h2>Shivendra Sinha</h2><div class="pic"></div></div>
+    <div class="pc"><h2>Utkarsh Mishra</h2><div class="pic"></div></div>
+    <div class="pc"><h2>Shivam Dubey</h2><div class="pic"></div></div>
+</div>
+<br>
+  </footer>
+  
+</body>
+</html>
