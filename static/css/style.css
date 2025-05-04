@@ -285,13 +285,13 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     }
 .pc:nth-child(3) .pic{
-        background-image: url('../imgs/Utkarsh.PNG');
+        background-image: url('../imgs/utkarsh.PNG');
         opacity: 0.7;
         background-size: cover;
         background-repeat: no-repeat;
         }
 .pc:nth-child(4) .pic{
-            background-image: url('../imgs/Shivam.png');
+            background-image: url('../imgs/Shivam.PNG');
             opacity: 0.7;
             background-size: cover;
             background-repeat: no-repeat;
