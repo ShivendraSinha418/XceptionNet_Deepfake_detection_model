@@ -5,11 +5,11 @@ import cv2
 import os
 
 app = Flask(__name__)
-UPLOAD_FOLDER = './static/uploads'
+UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load your trained model
-model = tf.keras.models.load_model('./model/XceptionNet_trained_model.h5')
+model = tf.keras.models.load_model('model/XceptionNet_trained_model.h5')
 
 # Basic preprocessing
 def basic_preprocessing(img):
