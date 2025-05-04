@@ -71,4 +71,5 @@ def predict():
     return render_template('predict.html', prediction=prediction, confidence=confidence, video_path=video_path)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
