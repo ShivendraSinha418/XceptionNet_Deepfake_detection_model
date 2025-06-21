@@ -105,7 +105,7 @@ deepfake-detector/
 
 ## 🖼️ Sample Interface Screenshot
 
-![Flask Interface Screenshot]()
+![Flask Interface Screenshot](https://github.com/ShivendraSinha418/XceptionNet_Deepfake_detection_model/blob/main/dfinterface.png)
 
 ---
 
