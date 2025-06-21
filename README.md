@@ -111,8 +111,8 @@ deepfake-detector/
 
 ## ▶️ Running the Project Locally
 
-bash
-```# Step 1: Clone the repository
+```bash
+# Step 1: Clone the repository
 git clone https://github.com/ShivendraSinha418/XceptionNet_Deepfake_detection_model.git
 cd deepfake-detector
 
