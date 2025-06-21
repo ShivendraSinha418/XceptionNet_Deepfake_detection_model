@@ -4,7 +4,7 @@ A deep learning project that detects **deepfake videos** by leveraging the power
 
 ---
 
-![Deepfake Detection Banner](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fdeep-deepfake-crisis-emergence-new-industry-combat-himanshu-bhangre-32x9c&psig=AOvVaw2WWajd3vMf6-fUq8m9K8ot&ust=1750570200561000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIisybvkgY4DFQAAAAAdAAAAABAE)
+![Deepfake Detection Banner]()
 
 ---
 
