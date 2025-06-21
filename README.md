@@ -4,7 +4,7 @@ A deep learning project that detects **deepfake videos** by leveraging the power
 
 ---
 
-![Deepfake Detection Banner]()
+![Deepfake Detection Banner](https://github.com/ShivendraSinha418/XceptionNet_Deepfake_detection_model/blob/main/dfmodel.png)
 
 ---
 
