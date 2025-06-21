@@ -105,7 +105,7 @@ deepfake-detector/
 
 ## 🖼️ Sample Interface Screenshot
 
-![Flask Interface Screenshot](images/interface_sample.png)
+![Flask Interface Screenshot]()
 
 ---
 
